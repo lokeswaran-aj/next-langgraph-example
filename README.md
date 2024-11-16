@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Generative AI app built with Langgraph.js and Next.js
 
-## Getting Started
+This is a simple app that demonstrates how to build a generative AI app with Langgraph.js, Next.js and Vercel AI SDK with streaming support.
 
-First, run the development server:
+> **Please leave a ⭐️ if you like the project!**
+
+## Features
+
+### Chat completions with history
+
+Try out the chat completions with history demo at [https://next-langgraph-example.vercel.app/chat](https://next-langgraph-example.vercel.app/chat)
+
+![Chat completions with history](./static/chat.gif)
+
+### Simple chat completions
+
+Try out the simple chat completion demo at [https://next-langgraph-example.vercel.app/completion](https://next-langgraph-example.vercel.app/completion)
+
+![Simple chat completions](./static/completion.gif)
+
+## How to run locally
+
+1. Copy the `.env.example` file to `.env` and set the environment variables.
+
+```bash
+cp .env.example .env
+```
+
+2. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Future work
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [x] Add simple chat completion
+- [x] Add chat completions with history
+- [ ] Add tool calling
+- [ ] Add Generative UI with tool calling
