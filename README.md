@@ -10,13 +10,13 @@ This is a simple app that demonstrates how to build a generative AI app with Lan
 
 Try out the chat completions with history demo at [https://next-langgraph-example.vercel.app/chat](https://next-langgraph-example.vercel.app/chat)
 
-![Chat completions with history](./static/chat.gif)
+<img src="./static/chat.gif" alt="Chat completions with history" height="400" />
 
 ### Simple chat completions
 
 Try out the simple chat completion demo at [https://next-langgraph-example.vercel.app/completion](https://next-langgraph-example.vercel.app/completion)
 
-![Simple chat completions](./static/completion.gif)
+<img src="./static/completion.gif" alt="Simple chat completions" height="400" />
 
 ## How to run locally
 
