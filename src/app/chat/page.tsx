@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Page() {
   const { messages, input, handleInputChange, handleSubmit, isLoading } =
-    useChat({ experimental_throttle: 50 })
+    useChat({ experimental_throttle: 50, api: '/api/chat-completion' })
 
   return (
     <div className="flex flex-col container mx-auto p-6 w-dvw h-dvh gap-4 items-start justify-between">
